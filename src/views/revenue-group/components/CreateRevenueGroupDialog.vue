@@ -129,6 +129,8 @@
               <a-form-item :name="['rules', `${index}`, 'revenue']">
                 <a-input-number
                   v-model:value="rule.revenue"
+                  inputmode="numeric"
+                  pattern="[0-9]*"
                   prefix="%"
                   class="w-32"
                   :min="0"
