@@ -41,9 +41,9 @@ export default {
   background-color: #f4f8fa;
 }
 
-.data-table .ant-table-tbody .ant-table-cell-fix-left,
-.data-table .ant-table-tbody .ant-table-cell-fix-right {
-  background: transparent;
+.data-table .ant-table-tbody .ant-table-row:nth-child(even) .ant-table-cell-fix-left,
+.data-table .ant-table-tbody .ant-table-row:nth-child(even) .ant-table-cell-fix-right {
+  background-color: #f4f8fa;
 }
 
 .data-table .ant-table-tbody > tr.ant-table-row-selected > td {
