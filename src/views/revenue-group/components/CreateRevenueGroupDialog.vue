@@ -64,13 +64,13 @@
               </button>
             </div>
             <div
-              class="flex items-start justify-between gap-1.5 rounded-sm bg-gray-400 bg-opacity-10 p-2.5"
+              class="flex flex-wrap items-start justify-start gap-1.5 rounded-sm bg-gray-400 bg-opacity-10 p-2.5"
             >
               <div class="h-[32px] flex items-center justify-start">{{ $t("if") }}</div>
-              <a-form-item :name="['rules', `${index}`, 'field']">
+              <a-form-item class="mb-0" :name="['rules', `${index}`, 'field']">
                 <a-select
                   v-model:value="rule.field"
-                  class="w-30"
+                  class="w-28"
                   :placeholder="capitalFirstOnly($t('selectSubject', { subject: $t('field') }))"
                 >
                   <a-select-option v-for="field in fieldOptions" :key="field" :value="field">
@@ -78,7 +78,7 @@
                   </a-select-option>
                 </a-select>
               </a-form-item>
-              <a-form-item :name="['rules', `${index}`, 'operator']">
+              <a-form-item class="mb-0" :name="['rules', `${index}`, 'operator']">
                 <a-select
                   v-model:value="rule.operator"
                   class="w-35"
@@ -103,7 +103,7 @@
                   <div class="flex items-center justify-start gap-2">
                     <a-input
                       v-model:value="rule.parameters[paramId]"
-                      class="w-35"
+                      class="w-32"
                       :placeholder="
                         capitalFirstOnly($t('enterSubject', { subject: $t('parameter') }))
                       "
