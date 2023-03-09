@@ -1,0 +1,59 @@
+{
+  "@@locale": "en",
+  "@VALIDATION": {},
+  "enterSubject": "Enter {subject}",
+  "@enterSubject": {
+    "description": "Prompt enter subject",
+    "placeholders": {
+      "subject": {
+        "type": "String",
+        "example": "username"
+      }
+    }
+  },
+  "selectSubject": "Select {subject}",
+  "@selectSubject": {
+    "description": "Prompt select subject",
+    "placeholders": {
+      "subject": {
+        "type": "String",
+        "example": "username"
+      }
+    }
+  },
+  "pleaseInputTheSubject": "Please input the {subject}!",
+  "@pleaseInputTheSubject": {
+    "description": "Empty input validation",
+    "placeholders": {
+      "subject": {
+        "type": "String",
+        "example": "username"
+      }
+    }
+  },
+  "@HOME_VIEW": {},
+  "home": "Home",
+  "revenueGroups": "Revenue Groups",
+  "revenueGroupList": "Revenue Group List",
+  "createNew": "Create New",
+  "createRevenueGroup": "Create Revenue Group",
+  "groupName": "Group Name",
+  "name": "Name",
+  "groupDesc": "Group Description",
+  "addDesc": "Add Description",
+  "specialGroup": "Special Group",
+  "rules": "Rules",
+  "rule": "Rule",
+  "add": "Add",
+  "field":"Field",
+  "operator":"Operator",
+  "parameter":"Parameter",
+  "amount":"Amount",
+  "submit": "Submit",
+  "reset": "Reset",
+  "thenTheRevenueIs":"then the revenue is",
+  "if":"If",
+  "view":"View",
+  "edit":"Edit",
+  "confirmDelete":"Confirm delete?"
+}

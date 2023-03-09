@@ -1,0 +1,36 @@
+/* fonts */
+/* NOTE : Convert to otf and ttf for iOS compatability;
+@font-face{
+  font-family: Opensans;
+  src: url(../fonts/openSans.ttf), 
+       url(../fonts/openSans.otf);
+}
+*/
+
+:root {
+  --systemfont: 'Helvetica', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Arial',
+    'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.body {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+body {
+  font-family: var(--systemfont);
+}
+
+html {
+  font-size: 16px;
+}
+
+input:focus-visible {
+  outline: none;
+}
